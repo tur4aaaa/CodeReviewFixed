@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from collections import defaultdict
 
-@dataclass
+@dataclass(frozen=True)
 class Foo:
     name: str
 
